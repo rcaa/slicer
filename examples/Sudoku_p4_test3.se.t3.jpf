@@ -1,0 +1,17 @@
+search.class=gov.nasa.jpf.search.RandomSearch
+listener=slicer.integrating.DynamicSlicer
+SPL_ON=true
+slicer.log=NO_
+slicer.report.type=MEMORY_LIST
+slicer.debug=true
+report.console.property_violation=error
+main.package=sudoku
+test.package=sudoku.main.tests
+target=sudoku.main.tests.TestAll
+classpath=/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/bin
+sourcepath=/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples;/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples
+PRODUCT=BASE,STATES,UNDO,SOLVER
+save.sliceIdIn=/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples/Sudoku_SliceID.ser
+target_args=3,/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples,BASE,STATES,UNDO,SOLVER
+output.slices=/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples/Sudoku_p4_test3.ser
+ck=/Users/Rodrigo/Documents/workspaces/Phd/Disciplinas/slicer/examples/Sudoku.ck
